@@ -50,7 +50,7 @@ public class RockPaperScissors {
 
         if (playerMove.equals(Rock) && computerMove.equals(Rock) || playerMove.equals(Scissors) && computerMove.equals(Scissors)
                 || playerMove.equals(Paper) && computerMove.equals(Paper)) {
-            System.out.println("Draw!");
+            System.out.println("Draw!!!");
         }
         if (playerMove.equals(Rock) && computerMove.equals(Paper) || playerMove.equals(Scissors) &&
                 computerMove.equals(Rock) || playerMove.equals(Paper) && computerMove.equals(Scissors)) {
@@ -58,7 +58,7 @@ public class RockPaperScissors {
         }
         if (playerMove.equals(Rock) && computerMove.equals(Scissors) || playerMove.equals(Scissors) &&
                 computerMove.equals(Paper) || playerMove.equals(Paper) && computerMove.equals(Rock)) {
-            System.out.println("Player Win!");
+            System.out.println("You Win!");
         }
 
 
