@@ -1,4 +1,3 @@
-import java.util.Comparator;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -42,7 +41,6 @@ public class RockPaperScissors {
             case 3:
                 computerMove = Paper;
                 break;
-
 
         }
 
